@@ -72,7 +72,7 @@ function evenNumbersBackwards(){
   let backPar = [];
   for (let i = 20; i >= 1; i--){
       if (i % 2 === 0){
-          cereja.push(i);
+          backPar.push(i);
       }
 
   }
@@ -85,10 +85,11 @@ function oddNumbersBackwards(){
   let backImpar = [];
   for (i = 20; i >= 1; i--){
       if(i % 2 !== 0){
-          uva.push(i);
+          backImpar.push(i);
       }
   }
-  return backImpar}
+  return backImpar
+}
 
 //Multiplos de 5 de trás pra frente
 
